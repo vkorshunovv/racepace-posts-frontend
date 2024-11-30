@@ -1,0 +1,71 @@
+.card_container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    width: 512px;
+    height: 384px;
+    position: relative;
+    border: 1px solid #9999992d;
+    -webkit-box-shadow: 10px 11px 15px -12px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 10px 11px 15px -12px rgba(0, 0, 0, 0.10);
+    box-shadow: 10px 11px 15px -12px rgba(0, 0, 0, 0.10);
+}
+
+.ribbons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    background-image: url('src/assets/Ribbons.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card {
+    display: flex;
+    gap: 16px;
+    width: 447px;
+    height: 321px;
+    border-radius: 2rem;
+}
+
+.first_column {
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.profile {
+    width: 75px;
+    height: 75px;
+}
+
+.thread {
+    width: 40px;
+    height: 156px;
+}
+
+.cups {
+    width: 70px;
+    height: 66px;
+}
+
+.second_column {
+    width: 308px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.third_column {
+    width: 32px;
+    height: 37px;
+}
